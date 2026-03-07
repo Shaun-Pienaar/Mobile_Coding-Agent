@@ -1,0 +1,4 @@
+List all Kotlin files and describe the module architecture.
+Read app/src/main/java/com/mobileagent/agent/AgentCore.kt and suggest memory optimizations.
+Create docs/agent-loop.md that explains tool call flow with examples.
+Search for TODO and produce a prioritized fix plan.
