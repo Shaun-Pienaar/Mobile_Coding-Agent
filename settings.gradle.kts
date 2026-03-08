@@ -19,7 +19,7 @@ pluginManagement {
 
 plugins {
     // Apply the foojay-resolver plugin to >
-    id("org.gradle.toolchains.foojay-resolv>
+    id("org.gradle.toolchains.foojay-resolv")
 }
 
 dependencyResolutionManagement {
