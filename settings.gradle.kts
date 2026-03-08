@@ -15,11 +15,11 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
-}
-
-plugins {
-    // Apply the foojay-resolver plugin to >
-    id("org.gradle.toolchains.foojay-resolv")
+    plugins {
+        // Centralize versions here
+        id("com.android.application") version "8.2.0"
+        id("org.jetbrains.kotlin.jvm") version "1.9.20"
+    }
 }
 
 dependencyResolutionManagement {
