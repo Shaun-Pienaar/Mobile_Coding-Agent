@@ -8,7 +8,7 @@
 
 rootProject.name = "Mobile_Coding-Agent"
 include("app")
-=======
+
 pluginManagement {
     repositories {
         google()
@@ -32,4 +32,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "MobileAgent"
 include(":app")
->>>>>>> 302f1179e89d1ba2639d590c54956fc7f175d664
