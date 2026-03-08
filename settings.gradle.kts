@@ -5,12 +5,7 @@
  * The settings file is used to specify which projects to include in your build.
  * For more detailed information on multi-project builds, please refer to https://docs.gradle.org/9.4.0/userguide/multi_project_builds.html in the Gradle documentation.
  * This project uses @Incubating APIs which are subject to change.
- */
-
-plugins {
-    // Apply the foojay-resolver plugin to allow automatic download of JDKs
-    id("org.gradle.toolchains.foojay-resolver-convention") version "1.0.0"
-}
+ */}
 
 rootProject.name = "Mobile_Coding-Agent"
 include("app")
@@ -21,6 +16,11 @@ pluginManagement {
         mavenCentral()
         gradlePluginPortal()
     }
+}
+
+plugins {
+    // Apply the foojay-resolver plugin to >
+    id("org.gradle.toolchains.foojay-resolv>
 }
 
 dependencyResolutionManagement {
