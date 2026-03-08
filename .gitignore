@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ignore Gradle project-specific cache directory
 .gradle
 
@@ -6,3 +7,12 @@ build
 
 # Ignore Kotlin plugin data
 .kotlin
+=======
+.gradle/
+/build/
+**/build/
+.local/
+local.properties
+.idea/
+*.iml
+>>>>>>> 302f1179e89d1ba2639d590c54956fc7f175d664
